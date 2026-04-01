@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Visualizer Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Sorting Visualizer</h1>
+
+    <div class="controls">
+
+        <select id="algorithm">
+            <option value="merge">Merge Sort</option>
+            <option value="bubble">Bubble Sort</option>
+            <option value="quick">Quick Sort</option>
+        </select>
+
+        <button onclick="generateArray()">Generate Array</button>
+        <button onclick="startSort()">Start Sorting</button>
+
+    </div>
+
+    <div id="array"></div>
+
+    <div class="panel-container">
+
+        <div class="panel">
+            <h3>Step-By-Step Explanation</h3>
+            <p id="explain">Press Start to begin sorting...</p>
+        </div>
+
+        <div class="panel">
+            <h3>Time Complexity Graph</h3>
+            <canvas id="complexityChart" width="400" height="250"></canvas>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
