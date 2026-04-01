@@ -70,7 +70,7 @@ sorting-visualizer
 └── README.md
 ▶️ How to Run the Project
 Clone the repository
-git clone https://github.com/your-username/sorting-visualizer.git
+git clone https://github.com/VarunGupta2327/Sorting-Visualizer-using-merge-bubble-quick-sort
 Open the project folder.
 Run the project by opening:
 index.html
